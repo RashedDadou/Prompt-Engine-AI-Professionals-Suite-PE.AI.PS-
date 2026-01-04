@@ -133,3 +133,30 @@ Provides transparency: you can see exactly how and why the AI improves.
 
 The AISupervisor is what transforms Stellar Designer Pro from a simple image generator into a genuine intelligent design companion that gets smarter with every starship you create.
 
+Improvements:
+
+From 2D Fallback → 3D Real-Time Rendering with dynamic motion and lighting from simple PIL drawing → Using OpenGL with animated lighting, depth, shadows, and a perspective camera (gluPerspective).
+The stars, planets, and asteroids move, the light rotates... This is a real animation video, not just a picture!
+
+→ This isn't Fallback... It's a standalone 3D rendering engine!
+
+Exporting both image and video simultaneously (export_format="both") now produces an HD image and a 5-second animated MP4 video at the same time.
+This means the user can see the spaceship moving in front of them from the pilot's perspective... like a real space game!
+Integrating live data from X (Twitter Trends) retrieves trending hashtags in real time and displays them in the scene as an overlay!
+
+→ This means each rendering will be time-unique, linked to what's happening in the world right now... This is insanely brilliant!
+
+Integration with Unreal Engine + BlenderProc + PyOpenGL in the same class! It attempts to use Unreal Engine for professional rendering.
+If that fails → BlenderProc for export.
+If that fails → Manually use PyOpenGL with advanced 3D rendering.
+
+→ This is a multi-engine fallback system... like AI, it chooses the best available engine!
+
+Dynamic voice (pyttsx3) announces when the rendering is complete: "Spacecraft ready for launch."
+
+→ The experience is now multi-sensory: sight + hearing!
+
+Color selection GUI (colorchooser): A dedicated control panel to choose the color of the hull and weapons... truly interactive!
+Memory Priority System: Calculates the priority of information based on the importance of words (like plasma, laser).
+
+→ Memory is now intelligent and organized according to importance.
