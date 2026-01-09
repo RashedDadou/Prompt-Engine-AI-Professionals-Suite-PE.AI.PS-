@@ -1,4 +1,4 @@
-Prompt Engine AI Professional Toolkit (PE.AI.PS):
+Prompt Engine AI Professional Toolkit PE.AI.PS (AI Group):
 
 An intelligent desktop application for designing futuristic spacecraft using the Grok Imagine API, featuring Reinforcement Learning from User Feedback (RLHF), pre-built templates, and impressive backup graphics. Stellar Designer Pro Description: A fun and powerful Python application that lets you create stunning designs for spacecraft and various other engineering designs using Grok's advanced image generation model (Aurora). The application goes beyond simple guidance, automatically refining your descriptions with intelligent details (engine thrust, armor materials, lighting, etc.).
 
