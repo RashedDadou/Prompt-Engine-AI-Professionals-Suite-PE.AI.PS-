@@ -1,77 +1,48 @@
-Prompt Engine AI Professional Toolkit PE.AI.PS (AI Group):
+The project is: AI Supervisor & X2 Assistants, a multi-agent system for a generative prompt engine.
+System concept in brief:
 
-An intelligent desktop application for designing futuristic spacecraft using the Grok Imagine API, featuring Reinforcement Learning from User Feedback (RLHF), pre-built templates, and impressive backup graphics. Stellar Designer Pro Description: A fun and powerful Python application that lets you create stunning designs for spacecraft and various other engineering designs using Grok's advanced image generation model (Aurora). The application goes beyond simple guidance, automatically refining your descriptions with intelligent details (engine thrust, armor materials, lighting, etc.).
+**An intelligent main supervisor (AI Supervisor)** manages the entire process and distributes tasks to **specialized assistants** (X2 Assistants) who handle the finer details.
 
-The application learns from your feedback (RLHF) to improve future designs, prioritizing your preferred engine angles, thrust levels, and artistic styles over time.
+### Role Distribution
 
-It includes pre-built templates (Cyberpunk, Retro Sci-Fi, NASA Realistic, Cinematic Epic).
+- **AI Supervisor**
+General Manager: Understands the request, determines its type (text or image), coordinates between assistants, reviews results, and decides whether to retry or accept.
 
-It saves your favorite designs in a dedicated folder and database.
+- **AI Text Assistant**
+Text specialist: Corrects grammar and syntax, improves phrasing, removes ambiguity, and prepares the final text before generation.
 
-It features a great dedicated backup graphics engine for offline use or during testing.
+- **AI Image Assistant**
+Provides prompt generation and optimization: Builds robust prompts, manages negative prompts, analyzes defects, and performs iterative optimization.
 
-Perfect for sci-fi fans, designers, writers, or anyone who dreams of exploring the stars! Screenshots - Main Interface
-Style Buttons and Orientation Enhancements
-Main Interface
-Styles
-Generated Sample Image
-Backup Sketch (Offline)
-Generated Spacecraft
-Backup Sketch
+- **AI Helper**
+Enrichment Expert: Adds specialized technical and visual details according to the field (space, vehicles, nature, history, art, etc.), suggests clarifying questions, and identifies priority and prohibited words.
 
-Favorites and Rating System
-Improved Orientation Details
-Favorite Button
-Improved Orientation
+### Why this design?
 
-Demo (GIF) - GIF demo (a short YouTube demo is also available: watch the demo - optional if you upload one) Features: Real-time Orientation Improvement - Automatically add professional details (propulsion values, engine angles, armor materials, volumetric lighting, 8K quality hints).
+- **Reduced load on the main model** → Each helper focuses on a single task with high precision.
+- **Improved accuracy and consistency** → The supervisor monitors and corrects, while the helpers handle the finer details.
+- **Flexibility and scalability** → New helpers (such as AI Code Assistant and AI Research Assistant) can be added in the future.
+- **Feedback loops** → The supervisor automatically retryes if problems are found, with continuous improvement.
 
-Machine Learning - Rate each design (from 0 to 100) and the app will learn your preferences for propulsion, angles, and art style.
+### Time context
 
-Styles
-Generated Sample Image... Ready-Made Styles - One-Click Templates: Cyberpunk, Classic Sci-Fi, NASA-Inspired Realism, Epic Cinematic.
+This model was designed in **July 2025**, a time when no one had adopted this design, as most prompt engineering systems relied on a single integrated engine (prompt → generate directly).
+The idea was relatively early in using a "Supervisor + Specialists" architecture to improve prompt quality and reduce errors.
 
-Favorites System – Save your best designs in the Favorites folder along with their metadata.
+### The Main Challenge
 
-Stylish Backup Illustration – When you're offline or the API crashes, a stylish hand-drawn illustration of a spaceship with a nebula background and glowing effects is generated.
+Precise coordination between the supervisor and the three assistants is crucial to ensure that every step is coherent and that no information is lost or contradictions occur.
+This design represents a step towards multi-agent AI systems, which are expected to become more common in 2026.
+What do you think of this version? Would you like us to add practical examples or focus more on a specific aspect (such as the benefits of feedback loops)?
+Design Structure:
 
-Customizable Image Size – Choose between horizontal, square, and vertical aspect ratios.
+AI_X2 /
 
-Modern Dark Theme – A purple and pink space aesthetic with a smooth user interface.
+├── supervisor.py # Main flow + Supervisor + process()
 
-Installation and Usage Requirements: Python 3.8 or later
-Pillow (pip install pillow)
-Requests (pip install requests)
-Tkinter (integrated with standard Python installations)
+├── ai_helper.py # AIHelper + DomainExpert + Domain Enrichment
+├── text_assistant.py # Text correction + supervise_and_generate
+├── image_assistant.py # Connect to Replicate (or other)
+├── text_feedback.py # Feedback Loop for analyzing and improving prompts
+├── constants.py # (Optional) Keywords, regex patterns, etc.
 
-bash
-
-pip install pillow requests
-
-API Key Setup: Get your XAI API key from https://x.ai/api
-
-Set it as an environment variable:
-
-Windows: cmd
-
-set XAI_API_KEY=your_api_key_here
-
-macOS/Linux: bash
-
-export XAI_API_KEY=your_api_key_here
-
-(Or permanently add it to your shell profile) Run the bash application
-
-python Stellar_Designer_Pro.py
-
-Enjoy designing countless spaceships! Contribution: We welcome contributions, problems, and feature suggestions!
-
-Feel free to create a beta version, experiment with ideas, and submit integration requests. Acknowledgments: A huge thank you to xAI and Grok for providing the fantastic Grok Imagine (Aurora) API that powers this amazing technology.
-
-This project was built with a passion for space, science fiction, and creative artificial intelligence.
-
-Made with  by [Rashed Dadouch]
-Mobile : +963 94 3307057
-Email : rasheddadou@Gmail
-Explore the stars, one design at a time. 
-Work on the project began on July 1, 2025
