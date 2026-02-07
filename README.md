@@ -41,8 +41,12 @@ AI_X2 /
 ├── supervisor.py # Main flow + Supervisor + process()
 
 ├── ai_helper.py # AIHelper + DomainExpert + Domain Enrichment
+
 ├── text_assistant.py # Text correction + supervise_and_generate
+
 ├── image_assistant.py # Connect to Replicate (or other)
+
 ├── text_feedback.py # Feedback Loop for analyzing and improving prompts
+
 ├── constants.py # (Optional) Keywords, regex patterns, etc.
 
