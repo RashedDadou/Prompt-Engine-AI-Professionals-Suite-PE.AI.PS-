@@ -1,4 +1,7 @@
-The project's concept is an AI-powered supervisory system equipped with two X3 assistants and a multi-factor instruction generator.
+**The main project idea is:**
+Designing a supervisory AI system, supported by three assistants, each specializing in a specific task.
+
+The primary supervisor (AI supervisor) manages the entire process and distributes tasks to specialized assistants (three assistants) who handle the finer details, each working within their area of ​​expertise.
 
 **An intelligent main supervisor (AI Supervisor)** manages the entire process and distributes tasks to **specialized assistants** (X3 Assistants) who handle the finer details.
 
