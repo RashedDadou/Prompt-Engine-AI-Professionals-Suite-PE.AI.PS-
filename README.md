@@ -1,5 +1,5 @@
-The project is: AI Supervisor & X2 Assistants, a multi-agent system for a generative prompt engine.
-System concept in brief:
+The project's concept is an AI-powered supervisory system equipped with two X2 assistants and a multi-factor instruction generator.
+This concept was studied on July 1, 2025, while other generative engines at that time had not yet implemented this design.
 
 **An intelligent main supervisor (AI Supervisor)** manages the entire process and distributes tasks to **specialized assistants** (X2 Assistants) who handle the finer details.
 
