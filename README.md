@@ -25,7 +25,7 @@ Enrichment Expert: Adds specialized technical and visual details according to th
 
 ### Time context
 
-This model was designed in **July 2025**, a time when no one had adopted this design, as most prompt engineering systems relied on a single integrated engine (prompt → generate directly).
+This model was designed in **1 July 2025**, a time when no one had adopted this design, as most prompt engineering systems relied on a single integrated engine (prompt → generate directly).
 The idea was relatively early in using a "Supervisor + Specialists" architecture to improve prompt quality and reduce errors.
 
 ### The Main Challenge
