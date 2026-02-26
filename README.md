@@ -1,6 +1,6 @@
-The project's concept is an AI-powered supervisory system equipped with two X2 assistants and a multi-factor instruction generator.
+The project's concept is an AI-powered supervisory system equipped with two X3 assistants and a multi-factor instruction generator.
 
-**An intelligent main supervisor (AI Supervisor)** manages the entire process and distributes tasks to **specialized assistants** (X2 Assistants) who handle the finer details.
+**An intelligent main supervisor (AI Supervisor)** manages the entire process and distributes tasks to **specialized assistants** (X3 Assistants) who handle the finer details.
 
 ### Role Distribution
 
