@@ -37,7 +37,7 @@ This design represents a step towards multi-agent AI systems, which are expected
 What do you think of this version? Would you like us to add practical examples or focus more on a specific aspect (such as the benefits of feedback loops)?
 Design Structure:
 
-AI_X2 /
+AI_X3 /
 
 ├── supervisor.py # Main flow + Supervisor + process()
 
